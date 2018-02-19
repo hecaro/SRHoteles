@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 0;
+	box-sizing: 0;
+}
+body {
+	background: #FFFFFF;
+	display: flex;
+	min-height: 100vh
+}
+.BarraMenu {
+	background: #2D2F33;
+	position: fixed;
+	height:7%;
+}
+#CabeceraPrincipal{
+	width: 96%;
+}
+#CabeceraSalida{
+	position:absolute;
+	position: fixed;
+	left:96%;
+	width:4%
+	}
+#botcierre{
+	margin-top: 10px;
+	}
+.BarraTextoNomb{
+		 background:#B2B2B2;
+		 width:237px;
+		 margin-left: 1px;
+}
+.BarraTextoIdent{
+		 background:#B2B2B2;
+		 width:237px;
+		 margin-left: 18px;
+}
+.BarraTextoUsuario{
+		 background:#B2B2B2;
+		 width:237px;
+		 margin-left: 5px;
+}
+.BarraTextoTlfno{
+		 background:#B2B2B2;
+		 width:237px;
+		 margin-left: 22px;
+}
+.BarraTextoMail{
+		 background:#B2B2B2;
+		 width:237px;
+		 margin-left: 14px;
+}
+.BarraTextoPais{
+		 background:#B2B2B2;
+		 width:237px;
+		 margin-left: 27px;
+}
+.BarraTextoProv{
+		 background:#B2B2B2;
+		 width:237px;
+		 margin-left: 20px;
+}
+.BarraTextoCity{
+		 background:#B2B2B2;
+		 width:237px;
+		 margin-left: 13px;
+}
+.BarraTextoDir{
+		 background:#B2B2B2;
+		 width:237px;
+		 margin-left: 13px;
+}
+.BarraTextoPass{
+		 background:#B2B2B2;
+		 width:237px;
+		 margin-left: 17px;
+}
+#contenedor {
+	background: #2D2F33;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 25px;
+	border-style: groove;
+	border-color: #FFFFFF;
+}
+.Imagen {
+	margin-top: 200px;
+	margin-left: 200px;
+}
+@font-face{
+	font-family: "OstrichSans-Medium";
+	src:url(../Recursos/OstrichSans-Medium.otf)
+}
+@font-face{
+	font-family: "OstrichSans-Bold";
+	src:url(../Recursos/OstrichSans-Bold.otf)
+}
+h1 {
+	color: #1A5CE0;
+	font-family: OstrichSans-Bold;
+	font-weight: 400;
+	margin-left: 15px;
+}
+h3 {
+	color: white;
+	font-family: OstrichSans-Medium;
+	font-weight: 100;
+}
+h5 {
+	color: white;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+.Login{
+	color:aliceblue;
+	vertical-align: middle;
+	font-family: OstrichSans-Medium;
+	font-weight: 50;
+	margin-left: 45%;
+	padding-top: 10px;
+}
+.boton{
+	margin-top:20px;
+	margin-left: 120px;
+	background: #2D2F33;
+	color: white;
+}
+div {
+	background: #2D2F33;
+	margin-top: 220px;
+	max-height:330px;
+	padding: 20px;
+}

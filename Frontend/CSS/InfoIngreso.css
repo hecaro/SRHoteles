@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 0;
+	box-sizing: 0;
+}
+body {
+	background: #FFFFFF;
+	display: flex;
+	min-height: 100vh;
+	background: #2D2F33;
+	
+}
+.Completo {
+	width:80%;
+	background: #2D2F33;
+	position: fixed;
+	width: 100%;
+	height:7%;
+}
+@font-face{
+	font-family: "OstrichSans-Medium";
+	src:url(../Recursos/OstrichSans-Medium.otf)
+}
+@font-face{
+	font-family: "OstrichSans-Bold";
+	src:url(../Recursos/OstrichSans-Bold.otf)
+}
+ol{
+	margin-top:5%;
+	margin-left:5%;
+	margin-right:5%;
+	padding:10%;
+	border-style: groove;
+	border-color: #FFFFFF;
+}
+h1 {
+	color: white;
+	font-family: OstrichSans-Medium;
+	font-weight: 400;
+	margin-top: 5%;
+	margin-left: 36%;
+}
+h2 {
+	color:aliceblue;
+	vertical-align: middle;
+	font-family: OstrichSans-Medium;
+	font-weight: 400;
+	margin-left: 18%;
+	padding-bottom:10%;
+}
+#piedepag{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #1A5CE0;
+	font-family: OstrichSans-Medium;
+	color: white;
+	text-align: center;
+	font-size: 150%;
+#info{
+	text-align: center;
+	}

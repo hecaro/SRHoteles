@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 0;
+	box-sizing: 0;
+}
+body {
+	background: #FFFFFF;
+	display: flex;
+	min-height: 100vh
+}
+.contenedor {
+	width:80%
+}
+.BarraMenu {
+	background: #2D2F33;
+	position: fixed;
+	width: 100%;
+	height:7%;
+	margin-top:0%;
+}
+.BarraTextoUser{
+	margin-left: 5px;
+	background:#B2B2B2;
+	width:180px;
+	padding:3px
+}
+.BarraTextoPass{
+	margin-left: 1px;
+	background:#B2B2B2;
+	width:147px;
+	padding:3px
+}
+.BotonInicio{
+	
+	margin-top:10px;
+	background: #2D2F33;
+	color: white;
+}
+form {
+	background: #2D2F33;
+	padding: 25px;
+	padding-bottom: 70px;
+	border-style: groove;
+	border-color: #FFFFFF;
+	margin-top: 2%;
+}
+.Imagen {
+	margin-top: 5%;
+	margin-left: 15%;
+}
+@font-face{
+	font-family: "OstrichSans-Medium";
+	src:url(../Recursos/OstrichSans-Medium.otf)
+}
+@font-face{
+	font-family: "OstrichSans-Bold";
+	src:url(../Recursos/OstrichSans-Bold.otf)
+}
+.cg{
+	background: #2D2F33;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 8%;
+	max-height: 320px;	
+	}
+#cp{
+	background: #2D2F33;
+	margin-top: 1%;	
+	}
+h1 {
+	color: #1A5CE0;
+	font-family: OstrichSans-Bold;
+	font-weight: 400;
+	margin-left: 15px;
+}
+h2 {
+	color:aliceblue;
+	vertical-align: middle;
+	font-family: OstrichSans-Medium;
+	font-weight: 400;
+	letter-spacing: 2px;
+	padding:3px
+}
+h3 {
+	color: white;
+	font-family: OstrichSans-Medium;
+	font-weight: 400;
+}
+.OMC {
+	color: white;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+hr {
+	color: white;
+	font-weight: 200;
+	margin-top: 20px;
+}
+.Login{
+	color:aliceblue;
+	vertical-align: middle;
+	font-family: OstrichSans-Medium;
+	font-weight: 500;
+	font size="7";
+	letter-spacing: 2px;
+	margin-left: 130px;
+	padding-top: 6px;
+}
+.LineUP{
+}
+#piedepag{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #1A5CE0;
+	font-family: OstrichSans-Medium;
+	color: white;
+	text-align: center;
+	font-size: 150%;
+#info{
+	text-align: center;
+	}
+div {
+	background: #2D2F33
+}
+.direccion {
+	margin-right:5%;
+}

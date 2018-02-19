@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 0;
+	box-sizing: 0;
+}
+body {
+	background: #FFFFFF;
+	display: flex;
+	min-height: 100vh
+}
+.contenedor {
+	background: #2D2F33;
+	margin-top: 280px;
+	max-height:200px;
+	padding: 20px;
+}
+.BarraMenu {
+	background: #2D2F33;
+	position: fixed;
+	height:7%;
+}
+#CabeceraPrincipal{
+	width: 96%;
+}
+#CabeceraSalida{
+	position:absolute;
+	position: fixed;
+	left:96%;
+	width:4%
+	}
+#botcierre{
+	margin-top: 10px;
+	}
+.LC{
+	color: #1A5CE0;
+	font-family: OstrichSans-Bold;
+	font-size:80%;
+	margin-left: 15px;
+}
+.BarraTextoNomb{
+	background:#B2B2B2;
+	width:237px;
+	margin-left: 3px;
+}
+form {
+	background: #2D2F33;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 25px;
+	border-style: groove;
+	border-color: #FFFFFF;
+}
+.Imagen {
+	margin-top: 200px;
+	margin-left: 200px;
+}
+@font-face{
+	font-family: "OstrichSans-Medium";
+	src:url(../Recursos/OstrichSans-Medium.otf)
+}
+@font-face{
+	font-family: "OstrichSans-Bold";
+	src:url(../Recursos/OstrichSans-Bold.otf)
+}
+#CabeceraPrincipal {
+	color: #1A5CE0;
+	font-family: OstrichSans-Bold;
+	font-size:250%;
+}
+.boton{
+	background: #2D2F33;
+	color: white;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 24px;
+	font-family: OstrichSans-Medium;
+}
+#IH{
+	padding-left:54px;
+	padding-right:54px;
+	margin-top: 30px;
+}
+#EH{
+	padding-left:63px;
+	padding-right:63px;
+	margin-top: 15px;
+}
+#IA{
+	padding-left:30px;
+	padding-right:32px;
+	margin-top: 15px;
+}
